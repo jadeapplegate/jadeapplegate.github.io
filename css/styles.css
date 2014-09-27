@@ -57,7 +57,7 @@ h1,h2,h3,h4 {
 }
 
 header {
-  background-image: url('../images/blur.png');
+  background-image: url('../images/blur_even_smaller.png');
   height:550px;
   color:#000000;
 }
@@ -187,7 +187,7 @@ section {
 }
 
 .bg-1 {
-	background: url('http://www.bootply.com/assets/example/bg_4.jpg') no-repeat center center fixed; 
+	background: url('../images/ggbridge.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -195,7 +195,7 @@ section {
 }
 
 .bg-2 {
-	background: url('http://www.bootply.com/assets/example/bg_5.jpg') no-repeat center center fixed; 
+	background: url('../images/rain.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -203,7 +203,7 @@ section {
 }
 
 .bg-3 {
-	background: url('http://www.bootply.com/assets/example/bg_6.jpg') no-repeat center center fixed; 
+	background: url('../images/rain.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
