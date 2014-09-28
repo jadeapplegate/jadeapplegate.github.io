@@ -84,6 +84,10 @@ header .dropdown-menu {
   border-width:0;
 }
 
+.header-text h1 {
+  text-align: center;
+}
+
 h1 {
   font-size:50px;
 }
