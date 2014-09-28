@@ -45,16 +45,23 @@ body {
 }
 
 #footer {
-  background-color:#414141;
+  background-color:#65BD83;
 }
 
-#footer a {
-  color:#efefef;
+#footer p {
+  color:white;
 }
 
 h1,h2,h3,h4 {
   font-family: 'Kreon', serif;
   vertical-align:middle;
+}
+
+h2 {
+  background-color:rgba(100, 189, 131, .8);
+  padding:20px;
+  border-radius: 2px;
+
 }
 
 header {
@@ -214,7 +221,7 @@ section {
 }
 
 .bg-2 {
-	background: url('../images/rain.png') no-repeat center center fixed; 
+	background: url('../images/bw-blur.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -222,7 +229,7 @@ section {
 }
 
 .bg-3 {
-	background: url('../images/rain.png') no-repeat center center fixed; 
+	background: url('../images/bw-blur.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -245,6 +252,9 @@ section {
 @media (max-width: 550px) {
   .header-text h1 {
     font-size: 35px;
+  }
+  .social-icons a img{
+    width: 80px;
   }
 }
 
