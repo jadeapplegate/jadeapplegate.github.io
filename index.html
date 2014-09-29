@@ -47,7 +47,7 @@
       </div><!--/.nav-collapse -->
     </div><!--/.container -->
 </div><!--/.navbar -->
-  
+
 <!-- Begin page content -->
 <div id="section1"></div>
   
@@ -73,10 +73,32 @@
 <div class="container" id="section3">
   	<div class="text-center">  
 
-        <img src="images/jobferret.png" class="img-responsive col-sm-6">
-        <img src="images/flightshare.png" class="img-responsive col-sm-6">
-        <img src="images/hangry.png" class="img-responsive col-sm-6">
-        <img src="images/groupcamp.png" class="img-responsive col-sm-6">
+<!--  Carousel - consult the Twitter Bootstrap docs at 
+      http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="carousel" class="carousel slide"><!-- class of slide for animation -->
+  <div class="carousel-inner">
+    <div class="item active"><!-- class of active since it's the first item -->
+      <img src="images/jobferret.png" alt="" />
+
+    </div>
+    <div class="item">
+      <img src="images/flightshare.png" alt="" />
+
+    </div>
+    <div class="item">
+      <img src="images/hangry.png" alt="" />
+    </div>
+
+    <div class="item">
+      <img src="images/groupcamp.png" alt="" />
+    </div>
+    
+  </div><!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+    <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
 
       
       <hr>
