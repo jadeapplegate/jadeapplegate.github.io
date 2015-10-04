@@ -4,12 +4,8 @@
 html,
 body {
   height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
   -webkit-font-smoothing: antialiased;
   font: normal 14px Kreon, serif;
-  /*background-color:red;*/
-  /*background-image: url("../images/background.png");*/
-
 }
 
 .row {
@@ -17,28 +13,20 @@ body {
   margin-right:0px;
 }
 
-/* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  /* Negative indent footer by its height */
   margin: 0 auto -60px;
-  /* Pad bottom by footer height */
   padding: 0 0 60px;
 }
 
-/* Set the fixed height of the footer here */
 #footer {
   height: 60px;
   margin-top:50px;
   padding-top:20px;
   padding-bottom:20px;
 }
-
-
-/* Custom page CSS
--------------------------------------------------- */
 
 #wrap > .container {
   padding: 60px 15px 0;
@@ -124,36 +112,35 @@ h1 {
    -webkit-transition: all .6s ease-in-out;
 }
 
-#footer > .container {
-  
-}
-
 @media (min-width: 767px) {
   .navbar-nav.nav-justified > li{
       float:none;
   }
 }
 .navbar-nav {
-  margin: 1px 1px; 
+  margin: 1px 1px;
   font-family: Arial, sans-serif;
-}  
-  
-/* customize nav style */
+}
+
 .navbar-custom {
     background-color: #2e2e2e;
 	font-weight:700;
     text-transform:uppercase;
     border-width:0;
 }
+
 .navbar-custom  .navbar-nav>li>a {
 	color: #ddd;
 }
+
 .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
 	background-color: #000;
 }
+
 .navbar-custom .dropdown-menu{
 	right:0;
 }
+
 .navbar-custom .navbar-nav>.dropdown>a .caret {
 	border-top-color: #999;
 	border-bottom-color: #999;
@@ -182,7 +169,7 @@ h1 {
 }
 
 #map-canvas {
-  	width: 100%; 
+  	width: 100%;
   	height: 300px;
 	margin: 0;
 	padding: 15px;
@@ -200,8 +187,8 @@ h1 {
 }
 .scroll-top a:link,.scroll-top a:visited {
   color:#222;
-} 
- 
+}
+
 
 section {
   color: #ffffff;
@@ -212,9 +199,7 @@ section {
 }
 
 #section3 img {
-  
   margin-bottom: 40px;
-  
 }
 
 #section3 {
@@ -222,7 +207,7 @@ section {
 }
 
 .bg-1 {
-	background: url('../images/bw-blur.png') no-repeat center center fixed; 
+	background: url('../images/bw-blur.png') no-repeat center center fixed;
     -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -230,7 +215,7 @@ section {
 }
 
 .bg-2 {
-	background: url('../images/bw-blur.png') no-repeat center center fixed; 
+	background: url('../images/bw-blur.png') no-repeat center center fixed;
     -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -238,7 +223,7 @@ section {
 }
 
 .bg-3 {
-	background: url('../images/bw-blur.png') no-repeat center center fixed; 
+	background: url('../images/bw-blur.png') no-repeat center center fixed;
     -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -278,33 +263,3 @@ section {
     font-size: 100px;
   }
 }
-
-.carousel {
-  margin:20px;
-}
-
-.carousel-control {
-  position: absolute;
-  top: 40%;
-  left: 0px;
-  width: 40px;
-  height: 40px;
-  margin-top: -20px;
-  font-size: 60px;
-  font-weight: 100;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #222222;
-  border: 3px solid #ffffff;
-  -webkit-border-radius: 23px;
-  -moz-border-radius: 23px;
-  border-radius: 23px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-
-.carousel img {
-  border-radius: 2px;
-}
-
